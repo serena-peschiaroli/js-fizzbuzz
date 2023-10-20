@@ -1,0 +1,66 @@
+:root {
+    --default-color: #1389B2;
+    --bg-color: #083B4C;
+    --fizz-color: #0BD6A1;
+    --buzz-color: #FFD166;
+    --fizzbuzz-col: #F0466F;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.Fizz {
+    background-color: var(--fizz-color);
+}
+
+.Buzz {
+
+    background-color: var(--buzz-color);
+}
+
+.FizzBuzz {
+    background-color: var(--fizzbuzz-col);
+}
+
+.Nodefault {
+    background-color: var(--default-color);
+
+}
+
+.container {
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.box {
+    width: calc(100% / 7);
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
